@@ -1,6 +1,6 @@
 # CountAccount
 
-#### Static site for an accounting firm
+#### Static demo site for an accounting firm
 
 
 ### Crreated By: Daniel Malmgren de Oliveira
