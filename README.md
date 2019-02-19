@@ -2,7 +2,7 @@
 
 #### Static, responsive, demo site for an accounting firm - including slow-scroll (jquery) and Google Map location (JS API).
 
-#### <a href="https://danmalmx.github.io/CountAccount">Demo Page</a>
+#### <a href="https://danmalmx.github.io/CountAccount">Demo Page link</a>
 
 #### Screenshot
 
