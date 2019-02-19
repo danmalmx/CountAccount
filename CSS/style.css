@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
+  box-sizing: border-box; 
   margin: 0;
   padding: 0;
 }
@@ -25,9 +26,9 @@ p {
 .py-2 { padding: 2rem 0 }
 .py-3 { padding: 3rem 0 }
 
-.p-1 {padding: 1.5rem}
-.p-2 {padding: 2rem}
-.p-3 {padding: 3rem}
+.p-1 { padding: 1.5rem }
+.p-2 { padding: 2rem }
+.p-3 { padding: 3rem }
 
 .l-heading {
   font-size: 4rem;
@@ -85,6 +86,11 @@ p {
   color: #fff;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
 .list {
   margin: 0.5rem 0;
   list-style: none;
@@ -124,7 +130,6 @@ p {
 }
 
 #showcase {
-  /*  Photo by rawpixel.com from Pexels  */
   background: #333 url('../img/accounting.jpg') no-repeat center center/cover;
   height: 100vh;
   color: #fff;
@@ -184,4 +189,27 @@ p {
   display: block;
   margin: auto;
   width: 60%;
+}
+
+#contact {
+  display: flex;
+}
+
+#contact .map, 
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input, 
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
